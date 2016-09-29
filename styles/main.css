@@ -2,6 +2,7 @@
   height: 0;
   padding-bottom:  45.25% ; /* 56.25% 16:9 */
   position: relative;
+  margin-bottom: -50px;
 }
 
 .child {
@@ -145,7 +146,8 @@ footer {
    position:absolute;
    bottom:0;
    width:100%;
-color:#666666;
+   height: 50px;
+    color:#666666;
     padding: 1rem;
     /*background-color: #efefef;*/
     text-align: center;
