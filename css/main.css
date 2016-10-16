@@ -513,10 +513,12 @@ section h2 {
 }
 .parallax {
   /* The image used */
-  background-image: url("../images/cork-wallet.png");
+  background-image: url("../images/confectionary.png");
   /* Set a specific height */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
   background-repeat: repeat;
+}
+.img-project {
+  background-color: white;
 }
