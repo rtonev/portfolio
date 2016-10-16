@@ -230,7 +230,7 @@ section.success {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: red;
+  color: white;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
@@ -510,4 +510,13 @@ section h2 {
 }
 #about {
   margin-top: 50px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/cork-wallet.png");
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
 }
