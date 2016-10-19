@@ -248,7 +248,6 @@ section.success {
                     height: 20px;
                     font-size: 20px;
                     text-align: center;
-                    top: 50%;
                     margin-top: -12px;
                     color: @theme-primary;
                     i {
@@ -259,6 +258,15 @@ section.success {
                         margin: 0;
                     }
                 }
+              .caption-content-1-line {
+                top: 50%;
+              }
+              .caption-content-2-line {
+                top: 40%;
+              }
+              .caption-content-3-line {
+                top: 30%;
+              }
             }
         }
     }
@@ -333,29 +341,29 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-	color: white;
+	color: @theme-success;
 	h3 {
 		margin-bottom: 30px;
 	}
 	.footer-above {
 		padding-top: 50px;
-		background-color: @theme-success;
+		//background-color: @theme-success;
 	}
 	.footer-col {
 		margin-bottom: 50px;
 	}
 	.footer-below {
 		padding: 25px 0;
-		background-color: @theme-success;
+		//background-color: @theme-success;
 	}
 }
 
 // Buttons
 
 .btn-outline {
-	color: white;
+	color: @theme-success;
 	font-size: 20px;
-	border: solid 2px white;
+	border: solid 2px @theme-success;
 	background: transparent;
 	transition: all 0.3s ease-in-out;
 	margin-top: 15px;
@@ -363,9 +371,9 @@ footer {
 	&:focus,
 	&:active,
 	&.active {
-		color: @theme-success;
-		background: white;
-		border: solid 2px white;
+		color: @theme-primary;
+		background: @theme-success;
+		border: solid 2px @theme-success;
 	}
 }
 
@@ -383,7 +391,7 @@ footer {
 	display: inline-block;
 	height: 50px;
 	width: 50px;
-	border: 2px solid white;
+	border: 2px solid @theme-success;
 	border-radius: 100%;
 	text-align: center;
 	font-size: 20px;
@@ -487,7 +495,8 @@ section h2 {
 
 .parallax {
 	/* The image used */
-	background-image: url("../images/confectionary.png");
+	//background-image: url("../images/confectionary.png");
+	background-image: url("../images/snow.png");
 
 	/* Set a specific height */
 	//height: 500px;
@@ -504,6 +513,6 @@ section h2 {
 	background-color:white;
 }
 
-#portfolio-title {
+.portfolio-title {
 	margin-bottom:20px;
 }
