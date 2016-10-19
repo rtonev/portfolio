@@ -519,7 +519,7 @@ section h2 {
 }
 .parallax {
   /* The image used */
-  background-image: url("../images/snow.png");
+  background: url("../images/confectionary2.png");
   /* Set a specific height */
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

@@ -69,11 +69,11 @@
     <!-- Header -->
 
     <!-- About Section -->
-    <section id="about" class="parallax">
+    <section id="about" class="parallax about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="img-responsive img-centered img-rounded" src="img/profile.jpg" alt="">
+                    <img id="profile-picture" class="img-responsive img-centered img-rounded" src="img/profile.jpg" alt="Profile Picture">
                 </div>
                 <div class="col-sm-6">
                     <br />
@@ -100,6 +100,17 @@
             </div>
             <div class="row">
                 <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content caption-content-2-line">
+                                <p>UX Research</p>
+                                <p>UX Design</p>
+                            </div>
+                        </div>
+                        <img src="images/course-wiz.png" class="img-responsive img-project img-rounded" alt="Course Wiz">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content caption-content-2-line">
@@ -107,71 +118,7 @@
                                 <p>Contextual Inquiry</p>
                             </div>
                         </div>
-                        <img src="images/iorio.png" class="img-responsive img-project img-rounded" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content caption-content-1-line">
-                                <p>Web Development</p>
-                            </div>
-                        </div>
-                        <img src="images/umhr.png" class="img-responsive img-project img-rounded" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content caption-content-1-line">
-                                <p>Web Development</p>
-                            </div>
-                        </div>
-                        <img src="images/nabu.png" class="img-responsive img-project img-rounded" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content caption-content-3-line">
-                                <p>UX Design</p>
-                                <p>Game Design</p>
-                                <p>iOS Development</p>
-                            </div>
-                        </div>
-                        <img src="images/scAIRed.png" class="img-responsive img-project img-rounded" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content caption-content-2-line">
-                                <p>UX Design</p>
-                                <p>Web Development</p>
-                            </div>
-                        </div>
-                        <img src="images/mi2lab.png" class="img-responsive img-project img-rounded" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content caption-content-2-line">
-                                <p>UX Research</p>
-                                <p>UX Design</p>
-                            </div>
-                        </div>
-                        <img src="images/course-wiz.png" class="img-responsive img-project img-rounded" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-3 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content caption-content-1-line">
-                                <p>Web Development</p>
-                            </div>
-                        </div>
-                        <img src="images/tatum.png" class="img-responsive img-project img-rounded" alt="">
+                        <img src="images/iorio.png" class="img-responsive img-project img-rounded" alt="Iorio's Gelato">
                     </a>
                 </div>
                 <div class="col-sm-3 portfolio-item">
@@ -186,6 +133,60 @@
                         <img src="images/vehicle-sharing.png" class="img-responsive img-project img-rounded" alt="">
                     </a>
                 </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content caption-content-2-line">
+                                <p>UX Design</p>
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <img src="images/mi2lab.png" class="img-responsive img-project img-rounded" alt="Michigan Information Interaction Lab">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content caption-content-3-line">
+                                <p>UX Design</p>
+                                <p>Game Design</p>
+                                <p>iOS Development</p>
+                            </div>
+                        </div>
+                        <img src="images/scAIRed.png" class="img-responsive img-project img-rounded" alt="scAIRed">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content caption-content-1-line">
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <img src="images/umhr.png" class="img-responsive img-project img-rounded" alt="UM Health Research">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content caption-content-1-line">
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <img src="images/nabu.png" class="img-responsive img-project img-rounded" alt="Nabu">
+                    </a>
+                </div>
+                <div class="col-sm-3 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content caption-content-1-line">
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <img src="images/tatum.png" class="img-responsive img-project img-rounded" alt="">
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>
