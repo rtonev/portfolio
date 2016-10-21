@@ -462,12 +462,32 @@ fieldset[disabled] .btn-success.active {
   padding: 100px 0;
   text-align: center;
 }
+.portfolio-modal .modal-content p {
+  text-align: left;
+}
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
+.portfolio-modal .modal-content h3 {
+  font-size: 28px;
+}
+.portfolio-modal .modal-content h3,
+.portfolio-modal .modal-content h4,
+.portfolio-modal .modal-content h5,
+.portfolio-modal .modal-content h6,
+.portfolio-modal .modal-content strong,
+.portfolio-modal .modal-content li {
+  text-align: left;
+}
+.portfolio-modal .modal-content h5 {
+  font-size: 20px;
+}
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+}
+.portfolio-modal .modal-content .modal-subsection {
+  margin-bottom: 50px;
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
@@ -530,4 +550,18 @@ section h2 {
 }
 .portfolio-title {
   margin-bottom: 20px;
+}
+div.modal-body h2,
+div.modal-body h3,
+div.modal-body h5 {
+  text-transform: none;
+}
+.hide-bullets {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+.list-questionnaire {
+  background-color: #eeeeee;
+  padding: 10px 25px;
 }

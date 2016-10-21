@@ -1,5 +1,21 @@
 // Freelancer Theme JavaScript
+var slideIndex = 1;
+showDivs(slideIndex);
 
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "inline";
+}
 (function($) {
     "use strict"; // Start of use strict
 
@@ -28,7 +44,7 @@
         offset: {
             top: 100
         }
-    })
+    });
 
     // Floating label headings for the contact form
     $(function() {
@@ -39,6 +55,15 @@
         }).on("blur", ".floating-label-form-group", function() {
             $(this).removeClass("floating-label-form-group-with-focus");
         });
+
+        /**/
+
+
+
+
+        /**/
+
+
     });
 
 })(jQuery); // End of use strict

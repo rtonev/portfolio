@@ -236,7 +236,7 @@ section.success {
                 width: 100%;
                 height: 100%;
                 opacity: 0;
-                transition: all ease 0.5s;
+                  transition: all ease 0.5s;
                 -webkit-transition: all ease 0.5s;
                 -moz-transition: all ease 0.5s;
                 &:hover {
@@ -433,12 +433,27 @@ footer {
 	    min-height: 100%;
 	    padding: 100px 0;
 	    text-align: center;
+		p {
+			text-align: left;
+		}
 		h2 {
 	    	margin: 0;
 	    	font-size: 3em;
 		}
+		h3 {
+			font-size: 28px;
+		}
+		h3, h4, h5, h6, strong, li {
+			text-align: left;
+		}
+		h5 {
+			font-size: 20px;
+		}
 		img {
 			margin-bottom: 30px;
+		}
+		.modal-subsection {
+			margin-bottom: 50px;
 		}
 		.item-details {
 			margin: 30px 0;
@@ -515,4 +530,21 @@ section h2 {
 
 .portfolio-title {
 	margin-bottom:20px;
+}
+
+div.modal-body {
+	h2, h3, h5 {
+		text-transform: none;
+	}
+}
+
+.hide-bullets {
+	list-style:none;
+	margin-left: -40px;
+	margin-top:20px;
+}
+
+.list-questionnaire {
+	background-color: #eeeeee;
+	padding:10px 25px;
 }
