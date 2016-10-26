@@ -120,7 +120,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: red;
+  color: #0047b3;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -129,14 +129,14 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: red;
+  color: #0047b3;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus {
   color: white;
 }
 .navbar-custom .navbar-nav li a:active {
-  color: red;
+  color: #0047b3;
 }
 .navbar-custom .navbar-nav li.active a {
   color: #242323;
@@ -553,7 +553,8 @@ section h2 {
 }
 div.modal-body h2,
 div.modal-body h3,
-div.modal-body h5 {
+div.modal-body h5,
+div.modal-body li {
   text-transform: none;
 }
 .hide-bullets {
