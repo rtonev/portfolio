@@ -460,7 +460,6 @@ fieldset[disabled] .btn-success.active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
 }
 .portfolio-modal .modal-content p {
   text-align: left;
@@ -575,9 +574,13 @@ div.modal-body h5 {
   margin-right: 0;
 }
 .project-title {
+  text-align: center;
   font-family: Georgia,Times,Times New Roman,serif;
   font-size: 3.5em;
   display: block;
+}
+.project-stats {
+  text-align: center;
 }
 .img-in-section {
   width: 90%;
