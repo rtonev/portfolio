@@ -3,6 +3,8 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -566,7 +568,7 @@ div.modal-body h5 {
   padding: 10px 25px;
 }
 .section-title {
-  font-family: Georgia,Times,Times New Roman,serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2em;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
@@ -575,8 +577,8 @@ div.modal-body h5 {
 }
 .project-title {
   text-align: center;
-  font-family: Georgia,Times,Times New Roman,serif;
-  font-size: 3.5em;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.0em;
   display: block;
 }
 .project-stats {
