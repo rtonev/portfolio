@@ -9,7 +9,8 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
-p {
+p,
+li {
   font-size: 18px;
 }
 p.small {
