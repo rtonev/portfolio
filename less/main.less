@@ -150,18 +150,18 @@ header {
 					color:@theme-primary;
 				}
 				&:active {
-					color: @theme-hover;
+					background: @theme-success;
 				}
 			}
 			&.active {
 				a {
-					color: @theme-success;
-					background: @theme-primary;
+					color: @theme-primary;
+					background: @theme-hover;
 					&:hover,
 					&:focus,
 					&:active {
-						color: @theme-success;
-						background: @theme-primary;
+						color: @theme-primary;
+						background: @theme-hover;
 					}
 				}
 			}
@@ -174,7 +174,7 @@ header {
 		border-color: white;
 		&:hover,
 		&:focus {
-			background-color: @theme-success;
+			background-color: @theme-primary;
 			color: white;
 			border-color: @theme-success;
 		}
@@ -585,6 +585,10 @@ div.modal-body {
 	margin-bottom: 0.67em;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+.hover {
+	color: @theme-hover;
 }
 
 

@@ -136,17 +136,17 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:active {
-  color: #2896A8;
+  background: #242323;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: #242323;
-  background: white;
+  color: white;
+  background: #2896A8;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: #242323;
-  background: white;
+  color: white;
+  background: #2896A8;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -155,7 +155,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #242323;
+  background-color: white;
   color: white;
   border-color: #242323;
 }
@@ -331,8 +331,8 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background: #242323;
-  border: solid 2px #242323;
+  background: #2896A8;
+  border: solid 2px #2896A8;
 }
 .btn-primary {
   color: white;
@@ -590,4 +590,7 @@ div.modal-body h5 {
   margin-bottom: 0.67em;
   margin-left: 0;
   margin-right: 0;
+}
+.hover {
+  color: #2896A8;
 }
