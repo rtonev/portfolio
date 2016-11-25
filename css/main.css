@@ -138,12 +138,11 @@ nav {
     font-size: 1.5em;
   }
 }
-section {
+section#about {
   padding: 100px 0;
 }
-section h2 {
-  margin: 0;
-  font-size: 3em;
+section {
+  padding-bottom: 50px;
 }
 section.success {
   background: white;
@@ -461,7 +460,7 @@ section h2 {
   border: solid 1px #a1a0a1;
 }
 .portfolio-title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 div.modal-body h2,
 div.modal-body h3,
