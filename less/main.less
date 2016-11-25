@@ -5,15 +5,7 @@
 body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
-}
-
-p,
-li {
-	font-size: 18px;
-}
-
-p.small {
-	font-size: 10px;
+	font-size:@font-size-base;
 }
 
 a,
@@ -23,51 +15,6 @@ a:active,
 a.active {
 	color: @theme-success;
 	outline: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: @title-font;
-	//text-transform: uppercase;
-	//font-weight: 700;
-}
-
-hr.star-light,
-hr.star-primary {
-    padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    font-family: FontAwesome;
-    display: inline-block;
-    position: relative;
-    top: -0.8em;
-    font-size: 2em;
-    padding: 0 0.25em;
-}
-
-hr.star-light {
-    border-color: @theme-primary;
-}
-
-hr.star-light:after {
-    background-color: @theme-success;
-    color: @theme-primary;
-}
-
-hr.star-primary {
-    border-color: @theme-primary;
-}
-
-hr.star-primary:after {
-    background-color: @theme-primary;
-    color: @theme-primary;
 }
 
 .img-centered {
@@ -125,14 +72,12 @@ nav {
 .navbar-custom {
 	background: @theme-success;
 	font-family: @title-font;
-	//text-transform: uppercase;
-	//font-weight: 500;
-	font-size: 1.2em;
 
 	a:focus {
 		outline: none;
 	}
 	.navbar-brand {
+		font-size:@font-size-title;
 		font-weight:300;
 		color: @theme-hover;
 		&:hover,
@@ -148,7 +93,7 @@ nav {
 			a {
 				color:  @theme-hover;
 				&:hover {
-					color: @theme-hover;//@theme-success;
+					color: @theme-hover;
 					outline:none;
 				}
 				&:focus {
@@ -177,7 +122,6 @@ nav {
 	}
 	.navbar-toggle {
 		color: @theme-primary;
-		//text-transform: uppercase;
 		font-size: 10px;
 		border-color: @theme-primary;
 		&:hover,
@@ -196,7 +140,7 @@ nav {
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
 	    .navbar-brand {
-	        font-size: 2.5em;
+	        font-size: @font-size-title;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
@@ -295,63 +239,6 @@ section.success {
     }
 }
 
-.floating-label-form-group {
-    position: relative;
-    margin-bottom: 0;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid @gray-light;
-    input,
-    textarea {
-	    z-index: 1;
-	    position: relative;
-	    padding-right: 0;
-	    padding-left: 0;
-	    border: none;
-	    border-radius: 0;
-	    font-size: 1.5em;
-	    background: none;
-	    box-shadow: none !important;
-	    resize: none;
-    }
-    label {
-	    display: block;
-	    z-index: 0;
-	    position: relative;
-	    top: 2em;
-	    margin: 0;
-	    font-size: 0.85em;
-	    line-height: 1.764705882em;
-	    vertical-align: middle;
-	    vertical-align: baseline;
-	    opacity: 0;
-	    -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-	    -moz-transition: top 0.3s ease,opacity 0.3s ease;
-	    -ms-transition: top 0.3s ease,opacity 0.3s ease;
-	    transition: top 0.3s ease,opacity 0.3s ease;
-    }
-    &:not(:first-child) {
-	    padding-left: 14px;
-	    border-left: 1px solid @gray-light;
-    }
-}
-
-.floating-label-form-group-with-value {
-	label {
-	    top: 0;
-	    opacity: 1;
-	}
-}
-
-.floating-label-form-group-with-focus {
-	label {
-	    color: @theme-success;
-	}
-}
-
-form .row:first-child .floating-label-form-group {
-    border-top: 1px solid @gray-light;
-}
-
 footer {
 	color: @theme-hover;
 	border-top: 1px solid #e7e7e7;
@@ -360,14 +247,12 @@ footer {
 	}
 	.footer-above {
 		padding-top: 50px;
-		//background-color: @theme-success;
 	}
 	.footer-col {
 		margin-bottom: 50px;
 	}
 	.footer-below {
 		padding: 25px 0;
-		//background-color: @theme-success;
 	}
 }
 
@@ -571,7 +456,8 @@ div.modal-body {
 	//font-family: Georgia,Times,Times New Roman,serif;
 	color:@theme-hover;
 	font-family: @title-font;
-	font-size: 2em;
+	font-size: @font-size-section-title;
+	font-weight: 300;
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;
 	margin-left: 0;
@@ -582,7 +468,9 @@ div.modal-body {
 .project-title {
 	text-align: center;
 	font-family: @title-font;
-	font-size: 3.0em;
+	color: @theme-hover;
+	font-size: @font-size-title;
+	font-weight: @font-weight-title;
 	display: block;
 }
 
