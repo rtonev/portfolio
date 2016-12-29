@@ -369,7 +369,7 @@ fieldset[disabled] .btn-success.active {
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 .portfolio-modal .modal-content p {
   text-align: left;
@@ -451,6 +451,32 @@ div.modal-body h5 {
   margin-left: 0;
   margin-right: 0;
 }
+.navbar-project-title a {
+  color: #ff4c31;
+}
+.back-button a:hover,
+a:hover,
+a:focus,
+a:active {
+  color: #ff4c31;
+  cursor: pointer;
+}
+.navbar-project-title a:hover,
+.navbar-project-title a:focus,
+.navbar-project-title a:active,
+.navbar-project-title a.active {
+  text-decoration: none;
+  cursor: default;
+  color: #ff4c31;
+}
+@media (min-width: 750px) {
+  .navbar-project-title a {
+    margin-left: -158.2px;
+    color: #ff4c31;
+    padding: 15px 15px;
+    line-height: 20px;
+  }
+}
 .project-title {
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -458,6 +484,20 @@ div.modal-body h5 {
   font-size: 2.25em;
   font-weight: 300;
   display: block;
+}
+.back-button {
+  padding: 15px 15px;
+  cursor: pointer;
+  color: #ff4c31;
+  float: left;
+}
+.back-button:hover,
+.back-button active {
+  color: #333333;
+  text-decoration: none;
+}
+.navbar-project {
+  padding: 0px 0px;
 }
 .project-stats {
   text-align: center;
@@ -485,4 +525,25 @@ div.modal-body h5 {
 .main-title {
   color: #ff4c31;
   font-weight: 300;
+}
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
 }

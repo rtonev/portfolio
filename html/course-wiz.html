@@ -21,16 +21,34 @@
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body id="page-top">
 <script src="../js/project.js"></script>
+
+
+<nav style="" class="navbar navbar-project navbar-default navbar-fixed-top navbar-custom center" role="navigation">
+    <div class="">
+
+        <div class="navbar-inner">
+            <div class="col-sm-6 col-xs-12">
+                <a class="back-button" href="../index.html#portfolio">
+                    <i class="fa fa-1x fa-angle-left"></i> <span>Back to Portfolio</span>
+                </a>
+            </div>
+            <ul class="nav navbar-nav col-sm-6">
+            <span class="back-button navbar-project-title navbar-brand">
+                <a href="javascript:void(0);">Course Wiz</a>
+            </span>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <div class="portfolio-modal">
     <div class="modal-content">
         <div class="container">
             <div class="row">
                 <div>
                     <div class="modal-body">
-                        <span class="project-title">Course Wiz</span>
-
                         <img src="../images/course_wiz/course-wiz.png" class="img-responsive center-block" />
                         <div class="modal-subsection project-stats">
                             <ul class="list-inline item-details">
@@ -129,10 +147,17 @@
                             <p>I am currently in the process of creating a QOC diagram, which I would follow with prototyping.
                                 The prototypes will be shown to users, and after possible (or probable) refining, I would proceed with development.</p>
                         </div>
-                        <div class="col-xs-12 project-stats">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        <div class="col-xs-12 modal-subsection">
+                            <span class="section-title">Digital Prototype</span>
+                            <hr />
+                            <p>Finally, an interactive digital prototype was created.</p>
+                           <div class="project-stats">
+                               <iframe width="438" height="930" src="//invis.io/GX9DHO6DE" frameborder="0" allowfullscreen=""></iframe>
+                           </div>
                         </div>
-
+                        <div class="col-xs-12 project-stats">
+                            <a class="btn btn-default" href="../index.html"><i class="fa fa-times"></i> Back to Portfolio</a>
+                        </div>
                     </div>
                 </div>
             </div>
