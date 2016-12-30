@@ -454,13 +454,6 @@ div.modal-body h5 {
 .navbar-project-title a {
   color: #ff4c31;
 }
-.back-button a:hover,
-a:hover,
-a:focus,
-a:active {
-  color: #ff4c31;
-  cursor: pointer;
-}
 .navbar-project-title a:hover,
 .navbar-project-title a:focus,
 .navbar-project-title a:active,
@@ -508,11 +501,17 @@ a:active {
   font-weight: 300;
   display: block;
 }
+.back-button a:hover,
+a:hover,
+a:focus,
+a:active {
+  color: #ff4c31;
+  cursor: pointer;
+}
 .back-button {
   padding: 15px 15px;
   cursor: pointer;
   color: #ff4c31;
-  float: left;
 }
 .back-button:hover,
 .back-button active {
