@@ -569,3 +569,6 @@ a:active {
   height: 0;
   overflow: hidden;
 }
+#scenariosGallery {
+  cursor: pointer;
+}

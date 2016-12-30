@@ -22,9 +22,29 @@
 
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- START -->
+
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="../vendor/photoswipe/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite,
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="../vendor/photoswipe/default-skin/default-skin.css">
+
+    <!-- Core JS file -->
+    <script src="../vendor/photoswipe/photoswipe.min.js"></script>
+
+    <!-- UI JS file -->
+    <script src="../vendor/photoswipe/photoswipe-ui-default.min.js"></script>
+    <!-- END -->
+
 </head>
 <body>
     <script src="../js/project.js"></script>
+    <script src="../js/vs3.js"></script>
 
     <div class="portfolio-modal">
         <div class="modal-content">
@@ -79,26 +99,64 @@
                             <div class="col-xs-12 modal-subsection">
                                 <span class="section-title">Competitive Analysis</span><hr />
                                 <p>
-                                    In order to get an understanding of the interactions and workflows involved in a ride-sharing application, I conduced a competitive analysis with popular centralized systems.
+                                    In order to get an understanding of the interactions and workflows involved in a ride-sharing application, I conduced a competitive analysis with popular centralized vehicle-sharing systems.
                                 </p>
                                 <img src="../images/vs3/service_analysis.png" class="col-md-8 col-md-offset-2 col-xs-12" alt="Competitive Analysis">
 
                                 <img src="../images/vs3/user_interface_analysis.png" class="col-md-8 col-md-offset-2 col-xs-12" alt="Competitive Analysis">
                             </div>
                             <div class="col-xs-12 modal-subsection">
-                                <span class="section-title">Personas</span><hr />
+                                <span class="section-title">Sketches</span><hr />
                                 <p>
-                                    From the data that we gathered, we were able to produce personas that would represent our target audience. Additionally,
-                                    we developed an anti-persona to help us stay on course with our design and not go off track.
+                                    The analysis gave us a high level understanding about how cetralized vehicle sharing systems work and what their user interface look like. From those, I sketched some initial screens, so that the team can use those sketches
+                                    to better communicate and to show to users.
                                 </p>
                                 <br />
-                                <img src="../images/vs3/persona.png" class="col-md-8 col-md-offset-2 col-xs-12" alt="Persona">
+                                <img src="../images/vs3/sketches_1.JPG" class="col-md-6 col-md-offset-3 col-xs-12" alt="Sketches 1">
+                                <img src="../images/vs3/sketches_2.JPG" class="col-md-6 col-md-offset-3 col-xs-12" alt="Sketches 2">
+                            </div>
+                            <div class="col-xs-12 modal-subsection">
+                                <span class="section-title">Scenarios</span><hr />
+                                <p>
+                                    We wanted to get a better insight into the challenges associated with vehicle sharing, so we created a set of scenarios to show to potential users.
+                                    here is an example scenario:
+                                </p>
+                                <br />
+                                <img id="scenariosGallery" src="../images/vs3/scenario_1.png" class="col-md-6 col-md-offset-3 col-xs-12" alt="Scenario" />
+                            </div>
+                            <div class="col-xs-12 modal-subsection">
+                                <span class="section-title">Personas</span><hr />
+                                <p>
+                                    We also created personas that represent our target audience. Additionally,
+                                    we developed an anti-persona to help us stay on course with our design and not go off track. We wanted to show the personas in our user interviews,
+                                    to make sure we understand who our target audience is.
+                                </p>
+                                <br />
+                                <img src="../images/vs3/persona.png" class="col-md-6 col-md-offset-3 col-xs-12" alt="Persona">
+                            </div>
+                            <div class="col-xs-12 modal-subsection">
+                                <span class="section-title">Interviewing</span><hr />
+                                <p>
+                                    Our next steps was to interview stakeholders and gather more data. We met with employees of a community service center in our target area.
+                                    Such centers provide many services to people, such as help with job search, tax repairs, or transportation facilitation.
+                                    We got feedback on our scenarios and personas, as well as more info about common problems that people report to the center.
+                                </p>
+                                <br />
+                                <img src="../images/vs3/interview.png" class="col-md-6 col-md-offset-3 col-xs-12" alt="Interview" />
+                            </div>
+                            <div class="col-xs-12 modal-subsection">
+                                <span class="section-title">Low-fidelity Prototypes</span><hr />
+                                <p>
+                                   Next, we developed low-fidelity paper prototypes based on all the data that we collected thus far.
+                                </p>
+                                <br />
+                                <img src="../images/vs3/lo_fi_prototype_1.jpeg" class="col-md-6 col-md-offset-3 col-xs-12" alt="Low-fidelity prototype 1" />
+                                <img src="../images/vs3/lo_fi_prototype_2.jpeg" class="col-md-6 col-md-offset-3 col-xs-12" alt="Low-fidelity prototype 2" />
                             </div>
                             <div class="col-xs-12 modal-subsection">
                                 <span class="section-title">Next Steps</span><hr />
                                 <p>
-                                    Our next steps are to interview stakeholders and gather more data. Additionally, we will be meeting with employees of community service centers in the area to gain
-                                    more insights about general ternds and issues that our target population might have. The collected data will drive our prototypes and would help refine our personas and design ideas.
+                                    We are planning to show our prototypes to potential users of our service. This will be a good test for our prototypes before we move to higher-fidelity stages.
                                 </p>
                             </div>
                         </div>
@@ -111,5 +169,73 @@
             </div>
         </div>
     </div>
+    <!-- START -->
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- END -->
 </body>
 </html>
