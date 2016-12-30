@@ -461,7 +461,35 @@ a:active {
 
 }
 
+#content {
+	position: absolute;
+	left: 0;
+	top:5px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	//width: 100px; // Need a specific value to work
+}
+
+@media(max-width:750px) {
+	.navbar-inner {
+		height:100px;
+	}
+
+	#content {
+		position: absolute;
+		left: 0;
+		top:55px;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 15px;
+		//width: 100px; // Need a specific value to work
+	}
+}
 @media(min-width:750px) {
+
 	.navbar-project-title a {
 		//a:hover {
 		//	color:blue;
