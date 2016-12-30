@@ -572,3 +572,6 @@ a:active {
 #scenariosGallery {
   cursor: pointer;
 }
+.img-border {
+  border: 1px solid lightgray;
+}
