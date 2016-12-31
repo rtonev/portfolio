@@ -575,3 +575,9 @@ a:active {
 .img-border {
   border: 1px solid lightgray;
 }
+.desc-row {
+  border: 1px solid #9d9d9d;
+}
+.link {
+  color: black;
+}

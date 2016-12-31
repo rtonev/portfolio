@@ -38,7 +38,7 @@
                             </div>
                             <div class="project-title col-xs-12">Michigan Information Interaction Lab</div>
                             <br/>
-                            <img style="margin-top:50px; margin-bottom: -10px;" src="../images/project-icon/mi2lab.png" class="col-md-6 col-md-offset-3 col-xs-12" />
+                            <img style="margin-top:50px; margin-bottom: -10px;" src="../images/project-icon/mi2lab-2.png" class="col-md-6 col-md-offset-3 col-xs-12" />
 
                             <div class="modal-subsection project-stats col-xs-12">
                                 <ul class="list-inline item-details">
@@ -54,42 +54,63 @@
                                 </ul>
                             </div>
                             <div class="modal-subsection col-xs-12">
+                                <p>As part of my work in the <a target="_blank" class="link" href="http://mi2lab.com">Michigan Information Interaction Lab</a> I am developing a system that allows
+                                users to control the devices in the lab and interact with them. We called the project Jarvis, given its resemblance to the character from the Iron Man movies.
+
+                            </div>
+                            <div class="modal-subsection col-xs-12">
+                                <span class="section-title">Jarvis Integrations</span>
+                                <hr />
                                 <p>
-                                    We investigate new methods, tools and technologies that enable users to interact with information in more natural and powerful ways, and
-                                    also make it easier for designers to create more usable and effective interfaces. Ultimately, our research will allow more users to become designers.
+                                    Jarvis is currently integrated with Slack, Trello, Alexa, and can control the lab devices screen content
                                 </p>
+
+                                <img src="../images/mi2lab/services.png" class="col-md-8 col-md-offset-2 col-xs-12" alt="Low-fidelity prototype">
+
                             </div>
 
                             <div class="modal-subsection col-xs-12">
                                 <span class="section-title">Lab Birds-Eye View</span>
                                 <hr />
                                 <p>
-                                    Currently, I am designing ways of which the lab devices could be controlled by users. As one of the components, I am designing a brids-eye view interface that allows a lab user
-                                    to move the content shown on one screen to another.
+                                    In order to have Jarvis allow users to control the lab device screens, we designed a brids-eye view interface that allows a lab user
+                                    to drag and drop the content shown on one device screen to another.
                                 </p>
                             </div>
                             <div class="modal-subsection col-xs-12">
                                 <span class="section-title">Low-fi Sketched Prototype</span>
                                 <hr />
-
+                                <p>We started with a low-fi paper prototype that represented the lab layout with all the permanently residing devices.</p>
                                 <img src="../images/mi2lab/sketch.png" class="col-md-8 col-md-offset-2 col-xs-12 img-border" alt="Low-fidelity prototype">
                             </div>
                             <div class="modal-subsection col-xs-12">
                                 <span class="section-title">Medium-fi Prototype</span>
                                 <hr />
+                                <p>Next, we developed medium-fi prototypes in sketch that illustrated the actual screen a user would see</p>
                                 <img src="../images/mi2lab/prototype_lofi.png" class="col-md-8 col-md-offset-2 col-xs-12 img-border" alt="Medium-fidelity prototype">
                             </div>
                             <div class="modal-subsection col-xs-12">
-                                <span class="section-title">High-fi HTML/CSS Prototype</span>
+                                <span class="section-title">Final Design</span>
                                 <hr />
+                                <p>The final design was finished and the interface were developed. We integrated it into a service we have called XDBrowser, which can control screen content via web sockets.
+                                Through the Jarvis interface, a user can drag content from one screen to another, which tells XDBrowser to reflect the changes in the target device.</p>
                                 <img src="../images/mi2lab/prototype_hifi.png" class="col-md-8 col-md-offset-2 col-xs-12 img-border" alt="High-fidelity prototype">
                             </div>
                             <div class="modal-subsection col-xs-12">
-                                <span class="section-title">Results and Future Steps</span>
+                                <span class="section-title">Check In/Out</span>
                                 <hr />
                                 <p>
-                                    The birds-eye view was integrated into a custom browser that can connect screens and devices. The view allows a user to control the content displayed on the screens of our lab.
-                                    My work in the lab continues and I am currently working on developing an API that allows lab users to check in/out into the lab. This API will be developed further in the followin months.
+                                    Another feature of Jarvis is to allow lab members to log in and out of the lab. We developed a user interface for this purpose and hooked it up to the Jarvis Restful API.
+                                </p>
+                                <img src="../images/mi2lab/check_in_out.png" class="col-md-8 col-md-offset-2 col-xs-12 img-border" alt="High-fidelity prototype">
+
+                            </div>
+                            <div class="modal-subsection col-xs-12">
+                                <span class="section-title">Next Steps</span>
+                                <hr />
+                                <p>
+                                    We are further expanding Jarvis to give it more control over the lab. One area we are
+                                    currently exploring is to enable Jarvis to submit crowd-sourcing requests and manage crowd worker tasks.
                                 </p>
                             </div>
                         </div>
