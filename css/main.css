@@ -198,13 +198,13 @@ section.success {
   font-weight: 300;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content-1-line {
-  top: 50%;
+  top: 20%;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content-2-line {
-  top: 40%;
+  top: 20%;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content-3-line {
-  top: 30%;
+  top: 20%;
 }
 #portfolio * {
   z-index: 2;
