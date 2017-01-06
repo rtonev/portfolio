@@ -157,7 +157,7 @@ section.success {
   }
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
+  margin: 15px 0 15px;
   right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
@@ -584,9 +584,6 @@ a:active {
   padding-top: 35px;
   height: 0;
   overflow: hidden;
-}
-#scenariosGallery {
-  cursor: pointer;
 }
 .img-border {
   border: 1px solid lightgray;
