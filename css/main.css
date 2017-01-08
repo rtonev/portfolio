@@ -562,7 +562,13 @@ a:active {
 }
 .main-title {
   color: #ff4c31;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
   font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
 }
 .navbar.center .navbar-inner {
   text-align: center;
