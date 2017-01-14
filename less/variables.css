@@ -14,6 +14,7 @@ There is no no-color option ("less --help" for help)
 @font-size-section-title:1.5em;
 @font-weight-title:300;
 @gray-base:        #000;
+@font-color-body: #222222;
 @title-font:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @body-font:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @gray-darker:      lighten(@gray-base, 13.5%); // #222
