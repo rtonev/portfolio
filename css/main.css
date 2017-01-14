@@ -3,10 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-@import url(http://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   font-size: 18px;
 }
@@ -36,7 +35,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -62,7 +61,7 @@ nav {
 }
 .navbar-custom {
   background: white;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-custom a:focus {
   outline: none;
@@ -459,7 +458,7 @@ div.modal-body h5 {
 }
 .section-title {
   color: #ff4c31;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
   margin-top: 0.67em;
@@ -511,7 +510,7 @@ div.modal-body h5 {
 }
 .project-title {
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ff4c31;
   font-size: 2.25em;
   font-weight: 300;
@@ -562,7 +561,7 @@ a:active {
 }
 .main-title {
   color: #ff4c31;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
   margin-top: 0;
@@ -572,7 +571,7 @@ a:active {
 }
 .navbar-title {
   color: #ff4c31;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0.67em;
