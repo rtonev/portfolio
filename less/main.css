@@ -189,12 +189,36 @@ section.success {
 		padding-top: 75px;
 	}
 }
+.portfolio-card {
+	border: solid 1px @theme-dark-medium;
+	border-radius: 6px;
+	-moz-border-radius: 20px;
+	//box-shadow: 0 0 0 1px @theme-dark-medium;
+}
+
+
+#portfolio .portfolio-caption {
+	border-radius: 6px;
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+.portfolio-card-title {
+	font-weight:700;
+	color: @theme-hover;
+}
 
 #portfolio {
     .portfolio-item {
         margin: 15px 0 15px;
         right: 0;
-        .portfolio-link {
+		padding:15px;
+
+
+	.portfolio-link {
             display: block;
             position: relative;
             max-width: 400px;
@@ -427,7 +451,7 @@ section h2 {
 
 .img-project {
 	background-color:@theme-primary;
-	border: solid 1px @theme-dark-medium;
+	//border: solid 1px @theme-dark-medium;
 
 
 }
@@ -642,6 +666,12 @@ a:active {
 	height: 0;
 	overflow: hidden;
 }
+
+.project-card-paragraph {
+	padding-left:10px;
+	text-align:center;
+}
+
 
 .img-border {
 	border:1px solid lightgray;

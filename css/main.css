@@ -160,9 +160,27 @@ section.success {
     padding-top: 75px;
   }
 }
+.portfolio-card {
+  border: solid 1px #a1a0a1;
+  border-radius: 6px;
+  -moz-border-radius: 20px;
+}
+#portfolio .portfolio-caption {
+  border-radius: 6px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+.portfolio-card-title {
+  font-weight: 700;
+  color: #ff4c31;
+}
 #portfolio .portfolio-item {
   margin: 15px 0 15px;
   right: 0;
+  padding: 15px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -442,7 +460,6 @@ section h2 {
 }
 .img-project {
   background-color: white;
-  border: solid 1px #a1a0a1;
 }
 .portfolio-title {
   margin-bottom: 0.67em;
