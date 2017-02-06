@@ -204,15 +204,23 @@ section.success {
 	text-align: center;
 	padding: 5px;
 }
+.project-link {
+	color:black;
+	&:hover {
+		color:black;
+	}
+}
 
 .portfolio-card-title {
-	font-weight:700;
-	color: @theme-hover;
+	margin:0 5px;
+	font-weight:400;
+	color: @theme-dark;
+	font-size:1.1em;
+
 }
 
 #portfolio {
     .portfolio-item {
-        margin: 15px 0 15px;
         right: 0;
 		padding:15px;
 
@@ -223,6 +231,7 @@ section.success {
             max-width: 400px;
             margin: 0 auto;
             .caption {
+				text-decoration: none;
                 background: fade(@theme-hover, 92%);
                 position: absolute;
 				border-radius: 6px;
@@ -565,7 +574,6 @@ div.modal-body {
 .back-button a:hover,a:hover,
 a:focus,
 a:active {
-	color:@theme-hover;
 	cursor: pointer;
 }
 
@@ -617,11 +625,8 @@ a:active {
 .main-title {
 	color: @theme-hover;
 	font-weight:300;
-
-	color:@theme-hover;
 	font-family: @title-font;
 	font-size: @font-size-section-title;
-	font-weight: 300;
 	margin-top: 0;
 	margin-bottom: 0.67em;
 	margin-left: 0;
@@ -629,12 +634,8 @@ a:active {
 }
 
 .navbar-title {
-	color: @theme-hover;
-	font-weight:300;
-
 	color:@theme-hover;
 	font-family: @title-font;
-	//font-size: @font-size-section-title;
 	font-weight: 300;
 	margin-top: 0;
 	margin-bottom: 0.67em;

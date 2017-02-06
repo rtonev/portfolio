@@ -173,12 +173,19 @@ section.success {
   text-align: center;
   padding: 5px;
 }
+.project-link {
+  color: black;
+}
+.project-link:hover {
+  color: black;
+}
 .portfolio-card-title {
-  font-weight: 700;
-  color: #ff4c31;
+  margin: 0 5px;
+  font-weight: 400;
+  color: #747274;
+  font-size: 1.1em;
 }
 #portfolio .portfolio-item {
-  margin: 15px 0 15px;
   right: 0;
   padding: 15px;
 }
@@ -189,6 +196,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
+  text-decoration: none;
   background: rgba(255, 76, 49, 0.92);
   position: absolute;
   border-radius: 6px;
@@ -542,7 +550,6 @@ div.modal-body h5 {
 a:hover,
 a:focus,
 a:active {
-  color: #ff4c31;
   cursor: pointer;
 }
 .back-button {
@@ -583,9 +590,9 @@ a:active {
 }
 .main-title {
   color: #ff4c31;
+  font-weight: 300;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 300;
   margin-top: 0;
   margin-bottom: 0.67em;
   margin-left: 0;
