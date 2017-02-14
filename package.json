@@ -1,9 +1,9 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
+  "name": "Portfolio",
+  "title": "Portfolio",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "homepage": "http://www.radentonev.com",
+  "author": "Raden Tonev",
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
@@ -16,10 +16,6 @@
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
   },
   "engines": {
     "node": ">= 0.6.0",
