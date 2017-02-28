@@ -1,10 +1,5 @@
-There is no no-color option ("less --help" for help)
-// Variables
-
-// Gray and Brand Colors for use across theme
-
-@theme-primary:    white;//#FBFBFB
-@theme-success:    white;
+@theme-primary: #;
+@theme-success: white;
 @theme-hover: #ff4c31;
 @theme-dark-medium: #a1a0a1;
 @theme-dark: #747274;
