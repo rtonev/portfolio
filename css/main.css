@@ -143,7 +143,7 @@ nav {
   }
 }
 section#about {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 section {
   padding-bottom: 50px;
@@ -164,6 +164,11 @@ section.success {
   border: solid 1px #a1a0a1;
   border-radius: 6px;
   -moz-border-radius: 20px;
+}
+#profile-picture {
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
 }
 #portfolio .portfolio-caption {
   border-radius: 6px;
@@ -530,6 +535,11 @@ div.modal-body h5 {
     padding-bottom: 15px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .portfolio-card {
+    font-size: 15px;
+  }
+}
 @media (min-width: 750px) {
   .navbar-project-title a {
     margin-left: -158.2px;
@@ -613,6 +623,12 @@ a:active {
 .navbar.center .navbar-inner .nav {
   display: inline-block;
   float: none;
+}
+@media only screen and (max-width: 992px) {
+  .main-title {
+    margin-top: 0.67em;
+    text-align: center;
+  }
 }
 .video-container iframe {
   position: absolute;
