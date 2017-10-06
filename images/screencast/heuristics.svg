@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="903px" height="335px" viewBox="0 0 903 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="902px" height="333px" viewBox="0 0 902 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
     <title>heuristics</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="heuristics" transform="translate(1.000000, 0.000000)">
+        <g id="heuristics">
             <text id="Visibility-of-system" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="44.9799805" y="80.5">Visibility of </tspan>
-                <tspan x="32.6181641" y="101.5">system status</tspan>
+                <tspan x="44.9799805" y="79.5">Visibility of </tspan>
+                <tspan x="32.6181641" y="100.5">system status</tspan>
             </text>
             <text id="Match-between-system" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="208.388672" y="70">Match between </tspan>
-                <tspan x="208.806152" y="91">system and the </tspan>
-                <tspan x="230.76123" y="112">real world</tspan>
+                <tspan x="208.388672" y="69">Match between </tspan>
+                <tspan x="208.806152" y="90">system and the </tspan>
+                <tspan x="230.76123" y="111">real world</tspan>
             </text>
             <text id="User-control-and-fre" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="402.458008" y="80.5">User control </tspan>
-                <tspan x="400.115723" y="101.5">and freedom</tspan>
+                <tspan x="402.458008" y="79.5">User control </tspan>
+                <tspan x="400.115723" y="100.5">and freedom</tspan>
             </text>
             <text id="Consistency-and-stan" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="582.935059" y="80.5">Consistency </tspan>
-                <tspan x="574.743652" y="101.5">and standards</tspan>
+                <tspan x="582.935059" y="79.5">Consistency </tspan>
+                <tspan x="574.743652" y="100.5">and standards</tspan>
             </text>
             <text id="Error-prevention" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="749.494629" y="91">Error prevention</tspan>
+                <tspan x="749.494629" y="90">Error prevention</tspan>
             </text>
             <text id="Help-and-documentati" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="777.41748" y="248">Help and </tspan>
-                <tspan x="752.438965" y="269">documentation</tspan>
+                <tspan x="777.41748" y="247">Help and </tspan>
+                <tspan x="752.438965" y="268">documentation</tspan>
             </text>
             <text id="Help-users-recognize" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="589.29834" y="216.5">Help users </tspan>
-                <tspan x="591.302246" y="237.5">recognize, </tspan>
-                <tspan x="576.356445" y="258.5">diagnose, and </tspan>
-                <tspan x="581.04541" y="279.5">recover from </tspan>
-                <tspan x="608.410156" y="300.5">errors</tspan>
+                <tspan x="589.29834" y="215.5">Help users </tspan>
+                <tspan x="591.302246" y="236.5">recognize, </tspan>
+                <tspan x="576.356445" y="257.5">diagnose, and </tspan>
+                <tspan x="581.04541" y="278.5">recover from </tspan>
+                <tspan x="608.410156" y="299.5">errors</tspan>
             </text>
             <text id="Aesthetic-and-minima" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="396.055176" y="237.5">Aesthetic and </tspan>
-                <tspan x="409.04541" y="258.5">minimalist </tspan>
-                <tspan x="424.316406" y="279.5">design</tspan>
+                <tspan x="396.055176" y="236.5">Aesthetic and </tspan>
+                <tspan x="409.04541" y="257.5">minimalist </tspan>
+                <tspan x="424.316406" y="278.5">design</tspan>
             </text>
             <text id="Flexibility-and-effi" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="215.463867" y="237.5">Flexibility and </tspan>
-                <tspan x="221.040527" y="258.5">efficiency of </tspan>
-                <tspan x="255.629883" y="279.5">use</tspan>
+                <tspan x="215.463867" y="236.5">Flexibility and </tspan>
+                <tspan x="221.040527" y="257.5">efficiency of </tspan>
+                <tspan x="255.629883" y="278.5">use</tspan>
             </text>
             <text id="Recognition-rather-t" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#555555">
-                <tspan x="41.4248047" y="237.5">Recognition </tspan>
-                <tspan x="45.5380859" y="258.5">rather than </tspan>
-                <tspan x="67.2954102" y="279.5">recall</tspan>
+                <tspan x="41.4248047" y="236.5">Recognition </tspan>
+                <tspan x="45.5380859" y="257.5">rather than </tspan>
+                <tspan x="67.2954102" y="278.5">recall</tspan>
             </text>
-            <path d="M900,169 L0,169" id="Line-2" stroke="#FF4C31" stroke-linecap="square"></path>
-            <rect id="Rectangle" stroke="#FF4C31" x="0.5" y="1.5" width="901" height="332" rx="6"></rect>
-            <path d="M179.5,1.5 L179.5,334.5" id="Line-3" stroke="#FF4C31" stroke-linecap="square"></path>
-            <path d="M360.5,1.5 L360.5,326.5" id="Line-3-Copy" stroke="#FF4C31" stroke-linecap="square"></path>
-            <path d="M541.5,0.5 L541.5,333.5" id="Line-3-Copy-2" stroke="#FF4C31" stroke-linecap="square"></path>
-            <path d="M722.5,0.5 L722.5,333.5" id="Line-3-Copy-3" stroke="#FF4C31" stroke-linecap="square"></path>
+            <path d="M901.5,168 L0.5,167.5" id="Line-2" stroke="#FF4C31" stroke-linecap="square"></path>
+            <rect id="Rectangle" stroke="#FF4C31" x="0.5" y="0.5" width="901" height="332" rx="6"></rect>
+            <path d="M179.5,0.5 L179.5,332.5" id="Line-3" stroke="#FF4C31" stroke-linecap="square"></path>
+            <path d="M360.5,0.5 L360.5,332.5" id="Line-3-Copy" stroke="#FF4C31" stroke-linecap="square"></path>
+            <path d="M541.5,0.5 L541.5,332.5" id="Line-3-Copy-2" stroke="#FF4C31" stroke-linecap="square"></path>
+            <path d="M722.5,0.5 L722.5,332.5" id="Line-3-Copy-3" stroke="#FF4C31" stroke-linecap="square"></path>
         </g>
     </g>
 </svg>
