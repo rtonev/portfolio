@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1128px" height="289px" viewBox="0 0 1128 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>competitive-analysis</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="competitive-analysis">
+            <g id="niche" transform="translate(852.000000, 0.000000)">
+                <rect id="Rectangle-3-Copy-2" fill="#4CB57C" x="0" y="0" width="276" height="289" rx="6"></rect>
+                <text id="Niche" font-family="Roboto-Light, Roboto" font-size="36" font-weight="300" fill="#FFFFFF">
+                    <tspan x="91.7363281" y="45">Niche</tspan>
+                </text>
+                <g id="Group-2" transform="translate(102.000000, 128.000000)" font-size="28" font-family="Roboto-Light, Roboto" fill="#FFFFFF" font-weight="300">
+                    <text id="Beats">
+                        <tspan x="0.102539062" y="26">Beats</tspan>
+                    </text>
+                    <text id="Bose">
+                        <tspan x="5.25878906" y="84">Bose</tspan>
+                    </text>
+                </g>
+                <path d="M36,64 L239.5,64" id="Line-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <g id="direct">
+                <rect id="Rectangle-3" fill="#6598D9" x="0" y="0" width="276" height="289" rx="6"></rect>
+                <text id="Direct" font-family="Roboto-Light, Roboto" font-size="36" font-weight="300" fill="#FFFFFF">
+                    <tspan x="91.9365234" y="45">Direct</tspan>
+                </text>
+                <text id="LG" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                    <tspan x="120.998047" y="122">LG</tspan>
+                </text>
+                <text id="Panasonic" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                    <tspan x="73.296875" y="180">Panasonic</tspan>
+                </text>
+                <text id="Bosch" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                    <tspan x="99.0957031" y="238">Bosch</tspan>
+                </text>
+                <path d="M35.5,64 L239.5,64" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <g id="indirect" transform="translate(426.000000, 0.000000)">
+                <rect id="Rectangle-3-Copy" fill="#48A0AB" x="0" y="0" width="276" height="289" rx="6"></rect>
+                <text id="Indirect" font-family="Roboto-Light, Roboto" font-size="36" font-weight="300" fill="#FFFFFF">
+                    <tspan x="78.0429688" y="45">Indirect</tspan>
+                </text>
+                <path d="M35.5,64 L239.5,64" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                <text id="Apple-Carplay" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                    <tspan x="53.7197266" y="154">Apple Carplay</tspan>
+                </text>
+                <text id="Android-Auto" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                    <tspan x="58.4912109" y="212">Android Auto</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
