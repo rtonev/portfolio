@@ -31,12 +31,12 @@
             <path id="Line-4-Copy-10-decoration-1" d="M683.5,201.5 L672.7,198.5 L672.7,204.5 L683.5,201.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
             <path d="M577.5,100.5 L684.5,100.5" id="Line-4-Copy-14" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square" transform="translate(631.000000, 100.500000) scale(1, -1) translate(-631.000000, -100.500000) "></path>
             <path id="Line-4-Copy-14-decoration-1" d="M684.5,100.5 L673.7,97.5 L673.7,103.5 L684.5,100.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M578.5,326.5 L684.5,310.5" id="Line-4-Copy-12" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square" transform="translate(631.500000, 318.500000) scale(1, -1) translate(-631.500000, -318.500000) "></path>
-            <path id="Line-4-Copy-12-decoration-1" d="M684.5,310.5 L673.373212,309.145532 L674.268728,315.078326 L684.5,310.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M354.5,261.5 L454.5,227.5" id="Line-4-Copy-6" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square" transform="translate(404.500000, 244.500000) scale(1, -1) translate(-404.500000, -244.500000) "></path>
-            <path id="Line-4-Copy-6-decoration-1" d="M454.5,227.5 L443.309146,228.136231 L445.240563,233.816868 L454.5,227.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
             <path d="M351.5,200.5 L456.5,198.5" id="Line-4-Copy-5" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
             <path id="Line-4-Copy-5-decoration-1" d="M456.5,198.5 L445.644826,195.706221 L445.759091,201.705133 L456.5,198.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M352.5,224.5 L451.5,262.5" id="Line-4-Copy-6" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-6-decoration-1" d="M451.5,262.5 L442.492286,255.829086 L440.342204,261.430617 L451.5,262.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M578.5,306.5 L684.5,326.5" id="Line-4-Copy-9" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-9-decoration-1" d="M684.5,326.5 L674.443478,321.54961 L673.331031,327.44558 L684.5,326.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
             <path d="M105.5,202.5 L210.5,200.5" id="Line-4-Copy-7" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
             <path id="Line-4-Copy-7-decoration-1" d="M210.5,200.5 L199.644826,197.706221 L199.759091,203.705133 L210.5,200.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
             <g id="Group-11" transform="translate(517.000000, 0.000000)" fill="#555555">
@@ -65,15 +65,15 @@
                 <circle id="Oval-Copy-2" cx="15.5" cy="1.5" r="1.5"></circle>
             </g>
             <text id="Call-Screen" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
-                <tspan x="513.750244" y="98">Call </tspan>
-                <tspan x="503.371826" y="116">Screen</tspan>
+                <tspan x="514.750244" y="96">Call </tspan>
+                <tspan x="504.371826" y="114">Screen</tspan>
             </text>
             <text id="Contacts-Menu" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
-                <tspan x="496.811279" y="205">Contacts </tspan>
-                <tspan x="507.896484" y="223">Menu</tspan>
+                <tspan x="497.311279" y="199">Contacts </tspan>
+                <tspan x="508.396484" y="217">Menu</tspan>
             </text>
             <text id="Radio" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
-                <tspan x="507.673096" y="310">Radio</tspan>
+                <tspan x="508.173096" y="311">Radio</tspan>
             </text>
         </g>
     </g>
