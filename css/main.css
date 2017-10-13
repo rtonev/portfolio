@@ -49,6 +49,10 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+.credits {
+  font-size: 14px;
+  margin-top: 0.67em;
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;

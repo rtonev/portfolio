@@ -54,6 +54,11 @@ header {
 	}
 }
 
+.credits {
+	font-size:14px;
+	margin-top: 0.67em;
+
+}
 @media(min-width:768px) {
 	header {
 		.container {
