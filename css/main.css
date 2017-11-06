@@ -505,6 +505,16 @@ div.modal-body h5 {
   margin-left: 0;
   margin-right: 0;
 }
+.section-subtitle {
+  color: #ff4c31;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
 .navbar-project-title a {
   color: #ff4c31;
 }
