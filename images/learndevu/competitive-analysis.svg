@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1128px" height="289px" viewBox="0 0 1128 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>competitive-analysis copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Learndevu" transform="translate(-61.000000, -369.000000)">
+            <g id="competitive-analysis-copy" transform="translate(61.000000, 369.000000)">
+                <g id="niche" transform="translate(852.000000, 0.000000)">
+                    <rect id="Rectangle-3-Copy-2" fill="#4CB57C" x="0" y="0" width="276" height="289" rx="6"></rect>
+                    <text id="Q&amp;A-Tools" font-family="Roboto-Light, Roboto" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="64.1875" y="45">Q&amp;A Tools</tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(48.000000, 96.000000)" font-size="28" font-family="Roboto-Light, Roboto" fill="#FFFFFF" font-weight="300">
+                        <text id="StackOverflow">
+                            <tspan x="0.10546875" y="84">StackOverflow</tspan>
+                        </text>
+                        <text id="Piazza">
+                            <tspan x="49.4355469" y="142">Piazza</tspan>
+                        </text>
+                        <text id="Coursera">
+                            <tspan x="33.0205078" y="26">Coursera</tspan>
+                        </text>
+                    </g>
+                    <path d="M36,64 L239.5,64" id="Line-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <g id="direct">
+                    <rect id="Rectangle-3" fill="#6598D9" x="0" y="0" width="276" height="289" rx="6"></rect>
+                    <text id="MOOCs" font-family="Roboto-Light, Roboto" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="84.265625" y="45">MOOCs</tspan>
+                    </text>
+                    <text id="Coursera" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                        <tspan x="82.0205078" y="122">Coursera</tspan>
+                    </text>
+                    <text id="EdX" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                        <tspan x="113.533203" y="180">EdX</tspan>
+                    </text>
+                    <text id="Udacity" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                        <tspan x="91.0498047" y="238">Udacity</tspan>
+                    </text>
+                    <path d="M35.5,64 L239.5,64" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <g id="indirect" transform="translate(426.000000, 0.000000)">
+                    <rect id="Rectangle-3-Copy" fill="#48A0AB" x="0" y="0" width="276" height="289" rx="6"></rect>
+                    <text id="Online-Learning" font-family="Roboto-Light, Roboto" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="27.5703125" y="45">Online Learning</tspan>
+                    </text>
+                    <path d="M35.5,64 L239.5,64" id="Line-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                    <text id="Khan-Academy" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45.2910156" y="180">Khan Academy</tspan>
+                    </text>
+                    <text id="Lynda.com" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                        <tspan x="70.4882812" y="238">Lynda.com</tspan>
+                    </text>
+                    <text id="Codeacademy" font-family="Roboto-Light, Roboto" font-size="28" font-weight="300" fill="#FFFFFF">
+                        <tspan x="49.2207031" y="122">Codeacademy</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
