@@ -1,5 +1,6 @@
-@theme-primary: #;
-@theme-success: white;
+There is no no-color option ("less --help" for help)
+@theme-primary:    white;
+@theme-success:    white;
 @theme-hover: #ff4c31;
 @theme-dark-medium: #a1a0a1;
 @theme-dark: #747274;
@@ -7,9 +8,10 @@
 @font-size-base: 18px;
 @font-size-title:2.25em;
 @font-size-section-title:1.5em;
+@font-size-section-subtitle: 1.2em;
 @font-weight-title:300;
 @gray-base:        #000;
-@font-color-body: #222222;
+@font-color-body: #555555;
 @title-font:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @body-font:        "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @gray-darker:      lighten(@gray-base, 13.5%); // #222
