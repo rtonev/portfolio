@@ -78,6 +78,7 @@ header {
 
 nav {
 	border-bottom: 1px solid @gray-light;
+
 }
 
 .navbar-custom {
@@ -144,9 +145,15 @@ nav {
 	}
 }
 
+.navbar-custom-project {
+	&:extend(.navbar-custom);
+	background: rgba(201, 76, 76, 0);
+
+}
+
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 25px 0;
+        padding: 20px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
@@ -158,7 +165,7 @@ nav {
 	    }
     }
     .navbar-custom.affix {
-        padding: 10px 0;
+        padding: 8px 0;
 		.navbar-brand {
 	        font-size: 1.5em;
 	    }
@@ -618,7 +625,7 @@ a:active {
 		text-decoration:none;
 	}
 
-	padding: 15px 15px;
+	position: absolute; font-size:14px; padding-top:0px; left: 0;
 	cursor: pointer;
 	color:@theme-hover;
 }

@@ -2,6 +2,8 @@
 (function($) {
     "use strict";
 
+    AOS.init();
+
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({

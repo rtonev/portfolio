@@ -15,6 +15,8 @@
 
     <link rel="icon" type="image/png" href="images/favicon.JPG">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/aos/aos.css" rel="stylesheet">
+
     <link href="css/main.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -41,13 +43,13 @@
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">RADEN TONEV</a>
             </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse">
                 <ul class="nav navbar-title navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -65,7 +67,7 @@
             </div>
         </div>
     </nav>
-
+<div data-aos="fade">
     <section id="about" class="parallax about">
         <div class="container">
             <div class="row">
@@ -76,8 +78,8 @@
                     <p class="main-title about-title">ABOUT ME</p>
                     <p>Raised in a family of artists, I quickly developed a great appreciation for art and aesthetics. My desire to solve problems and impact people’s lives, however, led me in a different direction. Captivated by the age of computers, I instead followed my passion for technology and became a software engineer. Nevertheless, during my five years of work, I was unfulfilled and wanted to re-engage my creative side.
                     </p><p>
-                        I decided to pursue a path in UX design, where I am now combining my coding and artistic talents, working relentlessly to solve problems and enhance the user experience. Currently I am advancing these skills at the University of Michigan's School of Information, where I am a Master's student specializing in Human-Computer Interaction.
-                    </p>
+                    I decided to pursue a path in UX design, where I am now combining my coding and artistic talents, working relentlessly to solve problems and enhance the user experience. Currently I am advancing these skills at the University of Michigan's School of Information, where I am a Master's student specializing in Human-Computer Interaction.
+                </p>
                 </div>
             </div>
         </div>
@@ -91,23 +93,23 @@
                 </div>
             </div>
             <div class="row">
-            <div class="col-sm-4 portfolio-item">
-                <a href="html/screencast.html" class="portfolio-link">
-                    <div class="caption">
-                        <div class="caption-content caption-content-1-line">
-                            <h3>Autodesk Screencast</h3>
-                            <p class="project-card-paragraph">A video learning tool for Autodesk Customers</p>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="html/screencast.html" class="portfolio-link">
+                        <div class="caption">
+                            <div class="caption-content caption-content-1-line">
+                                <h3>Autodesk Screencast</h3>
+                                <p class="project-card-paragraph">A video learning tool for Autodesk Customers</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="portfolio-card">
-                        <img src="images/screencast/project-icon.svg" class="img-responsive img-project img-rounded" alt="Autodesk Screencast">
-                        <div class="portfolio-caption">
-                            <p class="portfolio-card-title">Autodesk Screencast</p>
-                            <p class="text-muted">UX Design Intern</p>
+                        <div class="portfolio-card">
+                            <img src="images/screencast/project-icon.svg" class="img-responsive img-project img-rounded" alt="Autodesk Screencast">
+                            <div class="portfolio-caption">
+                                <p class="portfolio-card-title">Autodesk Screencast</p>
+                                <p class="text-muted">UX Design Intern</p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="html/community-ride.html" class="portfolio-link">
                         <div class="caption">
@@ -194,25 +196,27 @@
                     </a>
                 </div>
                 <!--<div class="col-sm-4 portfolio-item">-->
-                    <!--<a href="html/learndevu.html" class="portfolio-link">-->
-                        <!--<div class="caption">-->
-                            <!--<div class="caption-content caption-content-1-line">-->
-                                <!--<h3>Learndevú</h3>-->
-                                <!--<p class="project-card-paragraph">???</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="portfolio-card">-->
-                            <!--<img src="images/learndevu/project-icon.svg" class="img-responsive img-project img-rounded" alt="Learndevú">-->
-                            <!--<div class="portfolio-caption">-->
-                                <!--<p class="portfolio-card-title">Learndevú</p>-->
-                                <!--<p class="text-muted">UX Designer</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</a>-->
+                <!--<a href="html/learndevu.html" class="portfolio-link">-->
+                <!--<div class="caption">-->
+                <!--<div class="caption-content caption-content-1-line">-->
+                <!--<h3>Learndevú</h3>-->
+                <!--<p class="project-card-paragraph">???</p>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-card">-->
+                <!--<img src="images/learndevu/project-icon.svg" class="img-responsive img-project img-rounded" alt="Learndevú">-->
+                <!--<div class="portfolio-caption">-->
+                <!--<p class="portfolio-card-title">Learndevú</p>-->
+                <!--<p class="text-muted">UX Designer</p>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</a>-->
                 <!--</div>-->
             </div>
         </div>
     </section>
+</div>
+
 
     <!-- Footer -->
     <footer class="text-center parallax">
@@ -248,10 +252,10 @@
     </footer>
 
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/aos/aos.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/project.js"></script>
 </body>
 
 </html>
