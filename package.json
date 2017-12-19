@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "aos": "^2.2.0",
-    "express": "~3.4.4"
+    "express": "~3.4.4",
+    "scrollreveal": "^3.3.6"
   },
   "bundleDependencies": [],
   "private": true,

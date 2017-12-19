@@ -583,7 +583,7 @@ a:active {
 }
 .back-button {
   position: absolute;
-  font-size: 14px;
+  font-size: 18px;
   padding-top: 0px;
   left: 0;
   cursor: pointer;
@@ -678,4 +678,7 @@ a:active {
 }
 .link {
   color: black;
+}
+.navbar-project-title {
+  float: inherit;
 }

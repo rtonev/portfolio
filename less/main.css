@@ -625,7 +625,10 @@ a:active {
 		text-decoration:none;
 	}
 
-	position: absolute; font-size:14px; padding-top:0px; left: 0;
+	position: absolute;
+	font-size:18px;
+	padding-top:0px;
+	left: 0;
 	cursor: pointer;
 	color:@theme-hover;
 }
@@ -730,4 +733,8 @@ a:active {
 }
 .link {
 	color:black;
+}
+
+.navbar-project-title {
+	float:inherit;
 }

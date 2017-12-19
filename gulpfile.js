@@ -55,8 +55,8 @@ gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
         .pipe(gulp.dest('vendor/bootstrap'));
 
-    gulp.src(['node_modules/aos/dist/**/*'])
-        .pipe(gulp.dest('vendor/aos'));
+    gulp.src(['node_modules/scrollreveal/dist/**/*'])
+        .pipe(gulp.dest('vendor'));
 
     gulp.src(['node_modules/jquery/dist/jquery.min.js'])
         .pipe(gulp.dest('vendor/jquery'));

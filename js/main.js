@@ -2,7 +2,9 @@
 (function($) {
     "use strict";
 
-    AOS.init();
+    window.sr = ScrollReveal();
+    sr.reveal('.animated-appearance', {distance:"0px", scale:0.99});
+
 
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
