@@ -712,3 +712,18 @@ a:active {
   margin-top:60px;
   margin-bottom: -10px;
 }
+
+
+.pfo-table {
+  border: 1px solid @theme-hover;
+  text-align: center;
+}
+
+
+.pfo-table > td {
+  border: 1px solid @theme-hover;
+}
+
+.pfo-table > tr {
+  border: 1px solid @theme-hover;
+}

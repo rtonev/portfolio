@@ -683,3 +683,13 @@ a:active {
   margin-top: 60px;
   margin-bottom: -10px;
 }
+.pfo-table {
+  border: 1px solid #ff4c31;
+  text-align: center;
+}
+.pfo-table > td {
+  border: 1px solid #ff4c31;
+}
+.pfo-table > tr {
+  border: 1px solid #ff4c31;
+}
