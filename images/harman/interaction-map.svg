@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="708px" height="349px" viewBox="0 0 708 349" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+<svg width="712px" height="348px" viewBox="0 0 712 348" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>interaction-map</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="interaction-map">
-            <g id="Group-10" transform="translate(0.000000, 158.000000)">
+    <g id="Harman" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-192.000000, -657.000000)">
+        <g id="interaction-map" transform="translate(192.000000, 657.000000)">
+            <g id="Group-10" transform="translate(0.000000, 157.000000)">
                 <rect id="Rectangle-3-Copy-3" stroke="#555555" x="0.5" y="0.5" width="82" height="86" rx="6"></rect>
                 <text id="Setup" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#FF4C31">
                     <tspan x="21.2304688" y="48">Setup</tspan>
                 </text>
             </g>
-            <g id="Group-10-Copy" transform="translate(230.000000, 159.000000)">
+            <g id="Group-10-Copy" transform="translate(230.000000, 158.000000)">
                 <rect id="Rectangle-3-Copy-3" stroke="#555555" x="0.5" y="0.5" width="82" height="86" rx="6"></rect>
                 <text id="Main-Menu" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
                     <tspan x="4.76538086" y="48">Main Menu</tspan>
                 </text>
             </g>
-            <rect id="Rectangle-3-Copy-4" stroke="#555555" x="485.5" y="56.5" width="82" height="86" rx="6"></rect>
-            <rect id="Rectangle-3-Copy-5" stroke="#555555" x="485.5" y="159.5" width="82" height="86" rx="6"></rect>
-            <rect id="Rectangle-3-Copy-6" stroke="#555555" x="485.5" y="262.5" width="82" height="86" rx="6"></rect>
-            <path d="M351.5,173.5 L451.5,139.5" id="Line-4-Copy-4" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-4-decoration-1" d="M451.5,139.5 L440.309146,140.136231 L442.240563,145.816868 L451.5,139.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M525.5,45.5 L525.5,14.5" id="Line-4-Copy-13" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-13-decoration-1" d="M525.5,14.5 L522.5,25.3 L528.5,25.3 L525.5,14.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M578.5,293.5 L684.5,277.5" id="Line-4-Copy-11" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-11-decoration-1" d="M684.5,277.5 L673.373212,276.145532 L674.268728,282.078326 L684.5,277.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M577.5,201.5 L683.5,201.5" id="Line-4-Copy-10" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square" transform="translate(630.500000, 201.500000) scale(1, -1) translate(-630.500000, -201.500000) "></path>
-            <path id="Line-4-Copy-10-decoration-1" d="M683.5,201.5 L672.7,198.5 L672.7,204.5 L683.5,201.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M577.5,100.5 L684.5,100.5" id="Line-4-Copy-14" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square" transform="translate(631.000000, 100.500000) scale(1, -1) translate(-631.000000, -100.500000) "></path>
-            <path id="Line-4-Copy-14-decoration-1" d="M684.5,100.5 L673.7,97.5 L673.7,103.5 L684.5,100.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M351.5,200.5 L456.5,198.5" id="Line-4-Copy-5" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-5-decoration-1" d="M456.5,198.5 L445.644826,195.706221 L445.759091,201.705133 L456.5,198.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M352.5,224.5 L451.5,262.5" id="Line-4-Copy-6" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-6-decoration-1" d="M451.5,262.5 L442.492286,255.829086 L440.342204,261.430617 L451.5,262.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M578.5,306.5 L684.5,326.5" id="Line-4-Copy-9" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-9-decoration-1" d="M684.5,326.5 L674.443478,321.54961 L673.331031,327.44558 L684.5,326.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path d="M105.5,202.5 L210.5,200.5" id="Line-4-Copy-7" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <path id="Line-4-Copy-7-decoration-1" d="M210.5,200.5 L199.644826,197.706221 L199.759091,203.705133 L210.5,200.5 Z" stroke="#A1A0A1" fill="#A1A0A1" stroke-linecap="square"></path>
-            <g id="Group-11" transform="translate(517.000000, 0.000000)" fill="#555555">
+            <rect id="Rectangle-3-Copy-4" stroke="#555555" x="485.5" y="55.5" width="82" height="86" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-5" stroke="#555555" x="485.5" y="158.5" width="82" height="86" rx="6"></rect>
+            <rect id="Rectangle-3-Copy-6" stroke="#555555" x="485.5" y="261.5" width="82" height="86" rx="6"></rect>
+            <path d="M351.5,172.5 L451.5,138.5" id="Line-4-Copy-4" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-4-decoration-1" d="M451.5,138.5 L440.309146,139.136231 L442.240563,144.816868 L451.5,138.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M525.5,44.5 L525.5,13.5" id="Line-4-Copy-13" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-13-decoration-1" d="M525.5,13.5 L522.5,24.3 L528.5,24.3 L525.5,13.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M578.5,292.5 L684.5,276.5" id="Line-4-Copy-11" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-11-decoration-1" d="M684.5,276.5 L673.373212,275.145532 L674.268728,281.078326 L684.5,276.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M577.5,200.5 L683.5,200.5" id="Line-4-Copy-10" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square" transform="translate(630.500000, 200.500000) scale(1, -1) translate(-630.500000, -200.500000) "></path>
+            <path id="Line-4-Copy-10-decoration-1" d="M683.5,200.5 L672.7,197.5 L672.7,203.5 L683.5,200.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M577.5,99.5 L684.5,99.5" id="Line-4-Copy-14" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square" transform="translate(631.000000, 99.500000) scale(1, -1) translate(-631.000000, -99.500000) "></path>
+            <path id="Line-4-Copy-14-decoration-1" d="M684.5,99.5 L673.7,96.5 L673.7,102.5 L684.5,99.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M351.5,199.5 L456.5,197.5" id="Line-4-Copy-5" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-5-decoration-1" d="M456.5,197.5 L445.644826,194.706221 L445.759091,200.705133 L456.5,197.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M352.5,223.5 L451.5,261.5" id="Line-4-Copy-6" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-6-decoration-1" d="M451.5,261.5 L442.492286,254.829086 L440.342204,260.430617 L451.5,261.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M578.5,305.5 L684.5,325.5" id="Line-4-Copy-9" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-9-decoration-1" d="M684.5,325.5 L674.443478,320.54961 L673.331031,326.44558 L684.5,325.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path d="M105.5,201.5 L210.5,199.5" id="Line-4-Copy-7" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <path id="Line-4-Copy-7-decoration-1" d="M210.5,199.5 L199.644826,196.706221 L199.759091,202.705133 L210.5,199.5 Z" stroke="#A1A0A1" stroke-width="2" fill="#A1A0A1" stroke-linecap="square"></path>
+            <g id="Group-11" transform="translate(517.000000, 0.000000)" fill="#A1A0A1">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy" cx="8.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy-2" cx="15.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="Group-11-Copy" transform="translate(691.000000, 99.000000)" fill="#555555">
+            <g id="Group-11-Copy" transform="translate(695.000000, 98.000000)" fill="#A1A0A1">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy" cx="8.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy-2" cx="15.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="Group-11-Copy-2" transform="translate(691.000000, 200.000000)" fill="#555555">
+            <g id="Group-11-Copy-2" transform="translate(695.000000, 199.000000)" fill="#A1A0A1">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy" cx="8.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy-2" cx="15.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="Group-11-Copy-4" transform="translate(691.000000, 276.000000)" fill="#555555">
+            <g id="Group-11-Copy-4" transform="translate(695.000000, 275.000000)" fill="#A1A0A1">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy" cx="8.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy-2" cx="15.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="Group-11-Copy-5" transform="translate(691.000000, 325.000000)" fill="#555555">
+            <g id="Group-11-Copy-5" transform="translate(695.000000, 324.000000)" fill="#A1A0A1">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy" cx="8.5" cy="1.5" r="1.5"></circle>
                 <circle id="Oval-Copy-2" cx="15.5" cy="1.5" r="1.5"></circle>
             </g>
             <text id="Call-Screen" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
-                <tspan x="514.750244" y="96">Call </tspan>
-                <tspan x="504.371826" y="114">Screen</tspan>
+                <tspan x="514.750244" y="95">Call </tspan>
+                <tspan x="504.371826" y="113">Screen</tspan>
             </text>
             <text id="Contacts-Menu" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
-                <tspan x="497.311279" y="199">Contacts </tspan>
-                <tspan x="508.396484" y="217">Menu</tspan>
+                <tspan x="497.311279" y="198">Contacts </tspan>
+                <tspan x="508.396484" y="216">Menu</tspan>
             </text>
             <text id="Radio" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#FF4C31">
-                <tspan x="508.173096" y="311">Radio</tspan>
+                <tspan x="508.173096" y="310">Radio</tspan>
             </text>
         </g>
     </g>

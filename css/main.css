@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Portfolio v3.3.7+1 (http://www.radentonev.com)
- * Copyright 2013-2017 Raden Tonev
+ * Copyright 2013-2018 Raden Tonev
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
@@ -145,7 +145,7 @@ nav {
     transition: all 0.3s;
   }
   .navbar-custom.affix {
-    padding: 8px 0;
+    padding: 12px 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
@@ -452,9 +452,6 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content h5 {
   font-size: 20px;
 }
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
 .portfolio-modal .modal-content .modal-subsection {
   margin-top: 0.67em;
   margin-bottom: 50px;
@@ -473,10 +470,7 @@ section h2 {
   margin-top: 50px;
 }
 .parallax {
-  /* The image used */
   background-color: white;
-  /* Set a specific height */
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: repeat;
 }
@@ -684,4 +678,8 @@ a:active {
 }
 .animated-appearance {
   visibility: hidden;
+}
+.top-image {
+  margin-top: 60px;
+  margin-bottom: -10px;
 }
