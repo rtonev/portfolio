@@ -18,6 +18,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="../vendor/highslide/highslide.min.js"></script>
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
     <script>
@@ -31,141 +32,137 @@
 
     </script>
 </head>
-<body id="page-top">
-<script src="../js/project.js"></script>
-<div class="portfolio-modal">
-    <div class="modal-content">
-        <div class="container">
-            <div class="row">
-                    <div class="modal-body">
+<body>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container-fluid">
+            <div class="text-center page-scroll header-top-margin">
+                <a class="col-xs-4 back-button" href="../index.html#portfolio">
+                    <i class="fa fa-1x fa-angle-left"></i>
+                    <span>Back to Portfolio </span>
+                </a>
+                <span class="navbar-brand navbar-project-title">
+                            Course Wiz
+                        </span>
+            </div>
+        </div>
+    </nav>
+    <div class="portfolio-modal">
+        <div class="modal-content">
+            <div class="container">
+                <div class="modal-body">
+                    <img src="../images/course_wiz/course-wiz-main.png" class="top-image col-md-8 col-md-offset-2 col-xs-12 animated-appearance" />
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection project-stats animated-appearance">
+                        <ul class="list-inline item-details">
+                            <li>Date:
+                                <strong>September 2016 - December 2016</strong>
+                            </li>
+                            <li>Role:
+                                <strong>UX Designer</strong>
+                            </li>
+                            <li>Work Setting:
+                                <strong>Individual</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Summary</span><hr />
+                        <p>
+                            Course Wiz is a tool that helps UMSI students pick the right classes during registration. It strives to mitigate any anxiety and stress that a student might have during the process. The tool addresses the problems related lack of peer support, incomplete faculty profiles and missing course data.
+                        </p>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Problem Definition</span>
+                        <hr />
+                        <p>Students have to register for classes each semester. Being able to select the right classes is very important to students and is crucial to their academic success. However, the course selection process could be a difficult and stressful process. There are many classes offered by UMSI, permitting students the valuable freedom of choice. Yet, too many choices also makes it harder for a student to compile their schedule because they must consider a multitude of options and outcomes, while in some cases knowing little details about specific courses. I want to address these issues by developing a web application that gives UMSI students insights into crucial decision-making course details and background information that would help them pick appropriate courses with less efforts.</p>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Discovery</span><hr />
+                        <p>The discovery process involved talking to students in order to understand problems and concerns that they might have. Students told me that they have issues while trying to register for classes.</p>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Competitive Analysis</span>
+                        <hr />
+                        <p>Once the problem definition was formed and the discovery phase was done, I conducted a competitive analysis, in order see if there are effective tools already addressing this issue. I identified the following competitors and alternatives to my potential solution: Koofers, MyEdu, RateMyProfessors and the UMSI Academic Advising.</p>
+                        <br />
+                        <img src="../images/course_wiz/competitive_analysis.png" class="col-xs-12" alt="Competitive Analysis">
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Personas</span>
+                        <hr />
+                        <p>As a result of my conversations and research, I was able to develop target personas.</p>
+                        <img src="../images/course_wiz/persona_1.png" class="col-md-10 col-md-offset-1 col-xs-12 img-border" alt="Persona">
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Brainstorming</span>
+                        <hr />
+                        <p>I started brainstorming ideas in search of possible solutions. I started sketching possible approaches. Once I had my sketches, I started talking to stakeholders and showed them my sketches. The results from this activity helped me verify ideas and debunk wrong assumptions.</p>
                         <div>
-                            <a class="back-button" href="../index.html#portfolio">
-                                <i class="fa fa-1x fa-angle-left"></i> <span>Back to Portfolio</span>
-                            </a>
-                        </div>
-                        <div class="project-title col-xs-12">Course Wiz</div>
-                        <br/>
-                        <img style="margin-top:50px; margin-bottom: -10px;" src="../images/course_wiz/course-wiz-main.png" class="col-md-8 col-md-offset-2 col-xs-12" />
+                            <img src="../images/course_wiz/sketches_1.JPG" class="col-xs-12" alt="Sketches 1">
 
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection project-stats">
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>September 2016 - December 2016</strong>
-                                </li>
-                                <li>Role:
-                                    <strong>UX Designer</strong>
-                                </li>
-                                <li>Work Setting:
-                                    <strong>Individual</strong>
-                                </li>
-                            </ul>
+                            <!--<img src="images/course_wiz/sketches_1.JPG" class="img-responsive img-centered img-in-section" />-->
                         </div>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Storyboarding</span>
+                        <hr />
+                        <p>After getting valuable feedback, I developed storyboards out of my initial sketches. </p>
+                        <div>
+                            <img src="../images/course_wiz/sketches_2.JPG" class="col-xs-12" alt="Sketches 2">
+                        </div>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Interviewing</span>
+                        <hr />
+                        <p>I met with users once again and this time showed them my storyboards. I also interviewed them in a semi-structured manner. Some of the questions from my interview protocol are listed below:
+                        <ul class="list-questionnaire">
+                            <li>Do you mind if I make a recording in case I miss something?</li>
+                            <li>Which courses are you taking this semester?</li>
+                            <li>Can you quickly walk me through the process that you went through when picking which classes to take this semester?
+                                <ul>
+                                    <li>Did you talk to advising?</li>
+                                    <li>Looking at tracking and planning sheet?</li>
+                                    <li>Did you meet academic advising?</li>
+                                    <li>Did you talk to other students?</li>
+                                </ul>
+                            </li>
+                            <li>Are you interested to know what other students are taking?
+                                <ul>
+                                    <li>Are you comfortable other students seeing what courses you are taking? Exact Section? </li>
+                                    <li>Looking at tracking and planning sheet?</li>
+                                    <li>Would you provide your grades to app admins so that it could be used for showing class grade averages?</li>
+                                </ul>
+                            </li>
+                            <li>Before signing up for a class, do you do any lookup of the professors?
+                                <ul>
+                                    <li>What information do you think might be valuable to you?</li>
+                                </ul>
+                            </li>
+                            <li>What about class average grades or student dropping the class ratio?</li>
+                        </ul>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">QOC Diagrams</span>
+                        <hr />
+                        <p>I created QOC diagrams, in order to aid the design process and make decisions. Sample diagrams are shown below.</p>
+                        <div>
+                            <img src="../images/course_wiz/qoc_1.png" class="col-xs-12" alt="QOC 1">
+                            <img src="../images/course_wiz/qoc_2.png" class="col-xs-12" alt="QOC 2">
 
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Summary</span><hr />
-                            <p>
-                                Course Wiz is a tool that helps UMSI students pick the right classes during registration. It strives to mitigate any anxiety and stress that a student might have during the process. The tool addresses the problems related lack of peer support, incomplete faculty profiles and missing course data.
-                            </p>
                         </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Problem Definition</span>
-                            <hr />
-                            <p>Students have to register for classes each semester. Being able to select the right classes is very important to students and is crucial to their academic success. However, the course selection process could be a difficult and stressful process. There are many classes offered by UMSI, permitting students the valuable freedom of choice. Yet, too many choices also makes it harder for a student to compile their schedule because they must consider a multitude of options and outcomes, while in some cases knowing little details about specific courses. I want to address these issues by developing a web application that gives UMSI students insights into crucial decision-making course details and background information that would help them pick appropriate courses with less efforts.</p>
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Discovery</span><hr />
-                            <p>The discovery process involved talking to students in order to understand problems and concerns that they might have. Students told me that they have issues while trying to register for classes.</p>
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Competitive Analysis</span>
-                            <hr />
-                            <p>Once the problem definition was formed and the discovery phase was done, I conducted a competitive analysis, in order see if there are effective tools already addressing this issue. I identified the following competitors and alternatives to my potential solution: Koofers, MyEdu, RateMyProfessors and the UMSI Academic Advising.</p>
-                            <br />
-                            <img src="../images/course_wiz/competitive_analysis.png" class="col-xs-12" alt="Competitive Analysis">
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Personas</span>
-                            <hr />
-                            <p>As a result of my conversations and research, I was able to develop target personas.</p>
-                            <img src="../images/course_wiz/persona_1.png" class="col-md-10 col-md-offset-1 col-xs-12 img-border" alt="Persona">
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Brainstorming</span>
-
-                            <hr />
-                            <p>I started brainstorming ideas in search of possible solutions. I started sketching possible approaches. Once I had my sketches, I started talking to stakeholders and showed them my sketches. The results from this activity helped me verify ideas and debunk wrong assumptions.</p>
-                            <div>
-                                <img src="../images/course_wiz/sketches_1.JPG" class="col-xs-12" alt="Sketches 1">
-
-                                <!--<img src="images/course_wiz/sketches_1.JPG" class="img-responsive img-centered img-in-section" />-->
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Storyboarding</span>
-                            <hr />
-                            <p>After getting valuable feedback, I developed storyboards out of my initial sketches. </p>
-                            <div>
-                                <img src="../images/course_wiz/sketches_2.JPG" class="col-xs-12" alt="Sketches 2">
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Interviewing</span>
-                            <hr />
-                            <p>I met with users once again and this time showed them my storyboards. I also interviewed them in a semi-structured manner. Some of the questions from my interview protocol are listed below:
-                            <ul class="list-questionnaire">
-                                <li>Do you mind if I make a recording in case I miss something?</li>
-                                <li>Which courses are you taking this semester?</li>
-                                <li>Can you quickly walk me through the process that you went through when picking which classes to take this semester?
-                                    <ul>
-                                        <li>Did you talk to advising?</li>
-                                        <li>Looking at tracking and planning sheet?</li>
-                                        <li>Did you meet academic advising?</li>
-                                        <li>Did you talk to other students?</li>
-                                    </ul>
-                                </li>
-                                <li>Are you interested to know what other students are taking?
-                                    <ul>
-                                        <li>Are you comfortable other students seeing what courses you are taking? Exact Section? </li>
-                                        <li>Looking at tracking and planning sheet?</li>
-                                        <li>Would you provide your grades to app admins so that it could be used for showing class grade averages?</li>
-                                    </ul>
-                                </li>
-                                <li>Before signing up for a class, do you do any lookup of the professors?
-                                    <ul>
-                                        <li>What information do you think might be valuable to you?</li>
-                                    </ul>
-                                </li>
-                                <li>What about class average grades or student dropping the class ratio?</li>
-                            </ul>
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">QOC Diagrams</span>
-                            <hr />
-                            <p>I created QOC diagrams, in order to aid the design process and make decisions. Sample diagrams are shown below.</p>
-                            <div>
-                                <img src="../images/course_wiz/qoc_1.png" class="col-xs-12" alt="QOC 1">
-                                <img src="../images/course_wiz/qoc_2.png" class="col-xs-12" alt="QOC 2">
-
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection">
-                            <span class="section-title">Digital Prototype</span>
-                            <hr />
-                            <p>Finally, I created an interactive digital prototype of my solution.</p>
-                           <div class="project-stats">
-                               <iframe width="438" height="930" src="//invis.io/GX9DHO6DE" frameborder="0" allowfullscreen=""></iframe>
-                           </div>
-                        </div>
-
-                    </div>
-                    <div class="project-stats col-xs-12">
-                        <a class="back-button " href="../index.html#portfolio">
-                            <i class="fa fa-1x fa-angle-left"></i> <span>Back to Portfolio</span>
-                        </a>
-                    </div>
+                    </section>
+                    <section class="col-xs-12 col-md-8 col-md-offset-2 modal-subsection animated-appearance">
+                        <span class="section-title">Digital Prototype</span>
+                        <hr />
+                        <p>Finally, I created an interactive digital prototype of my solution.</p>
+                       <div class="project-stats">
+                           <iframe width="438" height="930" src="//invis.io/GX9DHO6DE" frameborder="0" allowfullscreen=""></iframe>
+                       </div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <script src="../vendor/scrollreveal.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
