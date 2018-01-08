@@ -155,7 +155,7 @@ section#about {
   padding-top: 100px;
 }
 section {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 section.success {
   background: white;
@@ -454,7 +454,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content .modal-subsection {
   margin-top: 0.67em;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
@@ -692,4 +692,7 @@ a:active {
 }
 .pfo-table > tr {
   border: 1px solid #ff4c31;
+}
+.imageWrapper {
+  margin-bottom: 30px;
 }
